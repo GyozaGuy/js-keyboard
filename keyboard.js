@@ -39,6 +39,10 @@
             width: ${width - ((width / 100) * 10)}px;
             z-index: 1;
           }
+          :host([color='black']) .key:hover {
+            background-color: #888;
+            cusor: pointer;
+          }
         </style>
         <button class="key"></button>`;
     }
